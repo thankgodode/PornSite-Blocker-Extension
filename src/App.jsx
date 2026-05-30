@@ -118,7 +118,7 @@ export default function App() {
   return (
     <div className="app">
       <header className="header">
-        <div className="logo">Focus<span>Guard</span></div>
+        <div className="logo">PornSite<span>Blocker</span></div>
         <nav className="nav">
           <button className={tab === "streak" ? "nav-btn active" : "nav-btn"} onClick={() => setTab("streak")}>Streak</button>
           <button className={tab === "block" ? "nav-btn active" : "nav-btn"} onClick={() => setTab("block")}>Blocklist</button>

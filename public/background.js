@@ -82,7 +82,6 @@ async function rebuildRules() {
 
   // Remove all existing dynamic rules
   const existing = await chrome.declarativeNetRequest.getDynamicRules();
-  console.log("EXISTING RULES:", existing);
   const existingIds = existing.map((r) => r.id);
 
   const newRules = domains.map((domain, i) => ({
